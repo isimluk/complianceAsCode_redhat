@@ -1,0 +1,25 @@
+schema_version: "1.0.0"
+name: Red Hat ATO Pathways
+metadata:
+  description: Aggregates all Red Hat OpenControl content.
+  maintainers:
+    - Shawn Wells <shawn@redhat.com>
+    - Gabe Alford <galford@redhat.com>
+
+components:
+  - ansible-tower
+  - coreos-4
+  - identity-management
+  - openshift-container-platform-3
+  - openshift-dedicated
+  - openstack-platform-13
+  - virtualization-host
+  - virtualization-manager
+
+dependencies:
+  standards:
+    - url: https://github.com/opencontrol/standards
+      revision: master
+  certifications:
+    - url: https://github.com/opencontrol/certifications
+      revision: master
