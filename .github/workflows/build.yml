@@ -19,5 +19,7 @@ jobs:
           PULL_REQUEST_BODY: |
             New report
             - Contains *today's* date
+          PULL_REQUEST_BRANCH: example-patches
+          BRANCH_SUFFIX: short-commit-hash
       - name: Check output environment variable
         run: echo "Pull Request Number - $PULL_REQUEST_NUMBER"
