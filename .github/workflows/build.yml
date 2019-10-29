@@ -8,6 +8,8 @@ jobs:
       - name: Make
         run: |
           make all
+          head build/ansible-tower/component.yaml
+          git status
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v1.5.4
         env:
