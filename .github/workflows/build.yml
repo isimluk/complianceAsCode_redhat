@@ -7,7 +7,7 @@ jobs:
       - uses: actions/checkout@v1
       - name: Make
         run: |
-          make all
+          make clean all
           head build/ansible-tower/component.yaml
           git status
       - name: Create Pull Request
