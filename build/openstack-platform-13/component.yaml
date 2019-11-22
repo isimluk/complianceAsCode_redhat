@@ -352,7 +352,7 @@ satisfies:
         of the system.
 
         It is recommended the same banner be displayed as configured in AC-8(a).'
-
+    
 
 - control_key: AC-10
   standard_key: NIST-800-53
@@ -469,7 +469,7 @@ satisfies:
   standard_key: NIST-800-53
   covered_by: []
   implementation_status: not applicable
-  narrative:
+  narrative: 
     - text: |
         'This control reflects organizational procedures/policies, and is not
         applicable to the configuration of Red Hat OpenStack Platform.'
@@ -983,7 +983,7 @@ satisfies:
   standard_key: NIST-800-53
   covered_by: []
   implementation_status: planned
-  narrative:
+  narrative: 
     - text: |
         'Documentation/instructions on audit retention is being tracked
         in GitHub:
@@ -1926,7 +1926,7 @@ satisfies:
   implementation_status: planned
   narrative:
     - text: |
-        'The customer will be responsible for documenting how to reconstitute
+        'The customer will be responsible for documenting how to reconstitute 
         their Red Hat OpenStack Platform environment. A successful control response will detail
         processes used to fully recover/restore the Red Hat OpenStack Platform environment.'
 
@@ -2803,14 +2803,14 @@ satisfies:
       text: |
         'This control is not applicable to Red Hat OpenStack Platform.
 
-        With the exception of access established through physical presense
+        With the exception of access established through physical presense 
         at the hardware and underlying operating system layers, connections to
         Red Hat OpenStack Platform are treated as remote connections. Authorization and
         authentication controls selected and verified from the IA family apply
         to this control; no independant control response is required.'
     - key: d
       text: |
-        'With the exception of access established through physical presense
+        'With the exception of access established through physical presense 
         at the hardware and underlying operating system layers, connections to
         Red Hat OpenStack Platform are treated as remote connections. Authorization and
         authentication controls selected and verified from the IA family apply
@@ -4425,7 +4425,7 @@ satisfies:
         'Red Hat OpenStack Platform has a built-in DNS so that services can be reached by
         the service DNS as well as the service IP/port. Red Hat OpenStack Platform supports
         split DNS by running SkyDNS on the master that answers DNS queries
-        for services.
+        for services. 
 
         Red Hat OpenStack Platform administrators are responsible for providing
         origin authentication and integrity verification artifacts along
@@ -4450,7 +4450,7 @@ satisfies:
         enable verification of a chain of trust among parent and child domains.
         A successful control response will discuss the technical means used to
         accomplish this.
-
+        
         Documentation on how to configure this functionality within
         Red Hat OpenStack Platform is forthcoming. This activity is being tracked in
         GitHub:
@@ -4553,7 +4553,7 @@ satisfies:
   implementation_status: planned
   narrative:
     - text: |
-        'When Red Hat OpenStack Platform runs on Red Hat Enterprise Linux,
+        'When Red Hat OpenStack Platform runs on Red Hat Enterprise Linux, 
         Red Hat OpenStack Platform maintains separate execution domains for each executing process by
         assigning a private virtual address space to each process.
 
@@ -4573,7 +4573,7 @@ satisfies:
     - text: |
         'This control reflects organizational procedures/policies, and is not
         applicable to the configuration of Red Hat OpenStack Platform.'
-
+    
 - control_key: SI-2
   standard_key: NIST-800-53
   covered_by: []
