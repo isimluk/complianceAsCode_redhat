@@ -245,7 +245,7 @@ satisfies:
         authentication, which is more about determining the identity of who
         is taking the action.
 
-        Documentation of OpenShift authorization frameworks and policies
+        Documentation of OpenShift authorization frameworks and policies 
         can be found in the OpenShift Architecture documentation:
 
         https://docs.openshift.com/container-platform/3.3/architecture/additional_concepts/authorization.html
@@ -637,7 +637,7 @@ satisfies:
         Enterprise Linux. This technology, named firewalld, allows a system
         administrator to configure host-based rules which take effect
         immediately. This gives an OpenShift operator the ability to immediately
-        drop all remote connections.
+        drop all remote connections. 
 
         Additionally, OpenShift nodes may be placed into Maintenance Mode. This
         designation will migrate applications from a given cluster node to
@@ -651,7 +651,7 @@ satisfies:
   standard_key: NIST-800-53
   covered_by: []
   implementation_status: not applicable
-  narrative:
+  narrative: 
     - text: |
         'This control reflects organizational procedures/policies, and is not
         applicable to the configuration of OpenShift.'
@@ -1189,7 +1189,7 @@ satisfies:
   standard_key: NIST-800-53
   covered_by: []
   implementation_status: planned
-  narrative:
+  narrative: 
     - text: |
         'Documentation/instructions on audit retention is being tracked
         in Jira:
@@ -1373,7 +1373,7 @@ satisfies:
 #       (e.g. Ansible Playbooks) to the central service (e.g. Ansible
 #       Tower).
 #
-- control_key: CM-2(2)
+- control_key: CM-2 (2)
   standard_key: NIST-800-53
   covered_by: []
   implementation_status: planned
@@ -2071,7 +2071,7 @@ satisfies:
   implementation_status: planned
   narrative:
     - text: |
-        'The customer will be responsible for documenting how to reconstitute
+        'The customer will be responsible for documenting how to reconstitute 
         their OpenShift environment. A successful control response will detail
         processes used to fully recover/restore the OpenShift environment.'
 
@@ -2133,7 +2133,7 @@ satisfies:
 
         https://docs.openshift.com/container-platform/3.3/install_config/
         configuring_authentication.html#RequestHeaderIdentityProvider
-
+        
         Many customers are accepting password-enabled SSH keys as multi-
         factor authentication. The SSH key (something they have) and the
         decryption password (something they know). Prior to enabling CAC
@@ -2851,14 +2851,14 @@ satisfies:
       text: |
         'This control is not applicable to OpenShift.
 
-        With the exception of access established through physical presense
+        With the exception of access established through physical presense 
         at the hardware and underlying operating system layers, connections to
         OpenShift are treated as remote connections. Authorization and
         authentication controls selected and verified from the IA family apply
         to this control; no independant control response is required.'
     - key: d
       text: |
-        'With the exception of access established through physical presense
+        'With the exception of access established through physical presense 
         at the hardware and underlying operating system layers, connections to
         OpenShift are treated as remote connections. Authorization and
         authentication controls selected and verified from the IA family apply
@@ -4372,7 +4372,7 @@ satisfies:
         'OpenShift has a built-in DNS so that services can be reached by
         the service DNS as well as the service IP/port. OpenShift supports
         split DNS by running SkyDNS on the master that answers DNS queries
-        for services.
+        for services. 
 
         OpenShift administrators are responsible for providing
         origin authentication and integrity verification artifacts along
@@ -4397,7 +4397,7 @@ satisfies:
         enable verification of a chain of trust among parent and child domains.
         A successful control response will discuss the technical means used to
         accomplish this.
-
+        
         Documentation on how to configure this functionality within
         OpenShift is forthcoming. This activity is being tracked in
         Jira:
@@ -4492,7 +4492,7 @@ satisfies:
   implementation_status: planned
   narrative:
     - text: |
-        'When OpenShift runs on Red Hat Enterprise Linux,
+        'When OpenShift runs on Red Hat Enterprise Linux, 
         OpenShift maintains separate execution domains for each executing process by
         assigning a private virtual address space to each process.
 
@@ -4512,7 +4512,7 @@ satisfies:
     - text: |
         'This control reflects organizational procedures/policies, and is not
         applicable to the configuration of OpenShift.'
-
+    
 - control_key: SI-2
   standard_key: NIST-800-53
   covered_by: []
@@ -4668,7 +4668,7 @@ satisfies:
     - text: |
         'This control reflects organizational procedures/policies, and is not
         applicable to the configuration of OpenShift.'
-
+    
 - control_key: SI-4 (1)
   standard_key: NIST-800-53
   covered_by: []
