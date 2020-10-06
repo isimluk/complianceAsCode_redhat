@@ -22,7 +22,7 @@ components:
 
 dependencies:
   standards:
-    - url: https://github.com/opencontrol/standards
+    - url: https://github.com/isimluk/standards
       revision: master
   certifications:
     - url: https://github.com/opencontrol/certifications
